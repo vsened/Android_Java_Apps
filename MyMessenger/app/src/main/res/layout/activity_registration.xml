@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:layout_gravity="center"
+>
+        <TextView
+            android:id="@+id/textViewRegistrationLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/registration_label"
+            android:textColor="@color/purple_500"
+            android:textSize="35sp"
+            android:layout_margin="8dp"
+/>
+
+        <EditText
+            android:id="@+id/editTextEmailRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_registration"
+            android:inputType="textEmailAddress"
+            android:layout_margin="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextPasswordRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_registration"
+            android:inputType="textPassword"
+            android:layout_margin="8dp"
+/>
+
+        <EditText
+            android:id="@+id/editTextNameRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_registration"
+            android:inputType="textCapWords"
+            android:layout_margin="8dp"
+/>
+
+        <EditText
+            android:id="@+id/editTextLastNameRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_name_registration"
+            android:inputType="textCapWords"
+            android:layout_margin="8dp"
+ />
+
+        <EditText
+            android:id="@+id/editTextAgeRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/age_registration"
+            android:inputType="number"
+            android:layout_margin="8dp"
+/>
+
+        <Button
+            android:id="@+id/buttonSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up_registration"
+            android:layout_margin="8dp"
+/>
+    </LinearLayout>
+</ScrollView>
